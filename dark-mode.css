@@ -1,0 +1,13 @@
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode .prompt-card {
+    background-color: #333;
+    color: #e0e0e0;
+}

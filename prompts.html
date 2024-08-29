@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dark-mode.css">
+    <style>
+        .footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prompts.html">Prompts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="mode-toggle">Switch to Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <button class="button">prompt-3</button>
+        </div>
+        <div class="prompt-container">
+            
+        <div class="p-box">
+            <div class="prompt-card">
+                <p>Prompt 1: Describe a sunset over a mountain range.</p>
+                <button class="like-button" onclick="updateLikes(this)">Like</button>
+                <span class="like-count">Likes: 0</span>
+            </div>
+
+            <div class="prompt-card">
+                <p>Prompt 2: Create a dialogue between two characters who dislike each other.</p>
+                <button class="like-button" onclick="updateLikes(this)">Like</button>
+                <span class="like-count">Likes: 0</span>
+            </div>
+            </div>
+            <div class="p-box">
+            <div class="prompt-card">
+                <p>Prompt 3:describe the quality over the quantity.</p>
+                <button class="like-button" onclick="updateLikes(this)">Like</button>
+                <span class="like-count">Likes: 0</span>
+            </div>
+            <div class="prompt-card">
+                <p>Prompt 4: create that creativity that inspires everyone.</p>
+                <button class="like-button" onclick="updateLikes(this)">Like</button>
+                <span class="like-count">Likes: 0</span>
+            </div>
+        </div>
+
+        
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="pagenumber">page number -1</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
